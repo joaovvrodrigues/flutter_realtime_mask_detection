@@ -1,16 +1,24 @@
-# ml_mask
+# flutter_realtime_mask_detection
 
-A new Flutter project.
+Real-time object detection in Flutter using [camera](https://pub.dartlang.org/packages/camera) and [tflite](https://pub.dartlang.org/packages/tflite) plugin. 
 
-## Getting Started
+## Install 
 
-This project is a starting point for a Flutter application.
+```
+flutter packages get
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Run
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```
+flutter run
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Models
+
+Model created by me using [teachable machine] (https://teachablemachine.withgoogle.com/) available in assets folder.
+  
+
+## Previews
+
+![](preview.jpg) 
