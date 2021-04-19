@@ -16,7 +16,7 @@ flutter run
 
 ## Models
 
-Model created by me using [teachable machine] (https://teachablemachine.withgoogle.com/) available in assets folder.
+Model created by me using [teachable machine](https://teachablemachine.withgoogle.com) available in assets folder.
   
 
 ## Previews
