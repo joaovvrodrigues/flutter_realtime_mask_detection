@@ -1,0 +1,3 @@
+0 Com máscara
+1 Sem máscara
+2 Máscara Incorreta
