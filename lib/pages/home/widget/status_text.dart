@@ -21,14 +21,8 @@ class StatusText extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(
-              label.substring(2),
-              style: AppTextStyles.titleBold.copyWith(color: AppColors.black),
-            ),
-            Text(
-              'Confiança:',
-              style: AppTextStyles.title.copyWith(color: AppColors.black),
-            ),
+            Text(label.substring(2), style: AppTextStyles.titleBold),
+            Text('Confiança:', style: AppTextStyles.title),
           ],
         ),
       ),

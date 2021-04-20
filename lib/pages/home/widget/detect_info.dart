@@ -8,10 +8,13 @@ class DetectInfo extends StatelessWidget {
   final Recognition recognition;
   @override
   Widget build(BuildContext context) {
-    return Row(
-      crossAxisAlignment: CrossAxisAlignment.center,
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [StatusImage(index: recognition.index!), Status(recognition)],
+    return Padding(
+      padding: const EdgeInsets.all(16.0),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [StatusImage(index: recognition.index!), Status(recognition)],
+      ),
     );
   }
 }

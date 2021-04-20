@@ -15,7 +15,7 @@ class StatusImage extends StatelessWidget {
           color: AppColors.white,
           image: DecorationImage(
               image: AssetImage(index == 0 ? AppImages.check : AppImages.error),
-              scale: 1.5)),
+              scale: 2)),
       height: 110,
       width: 110,
     );
